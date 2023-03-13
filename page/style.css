@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 30px;
+} 
+
+#texte {
+    color: black;
+    text-align: center;
+}
+
+.zone-carre {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+.zone1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+#carre1, #carre2 {
+    width: 200px;
+    height: 100%;
+    background-color: grey;
+}
