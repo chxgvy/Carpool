@@ -4,19 +4,22 @@
 }
 
 body {
-    background-color: beige;
+    background-color: white;
 }
 
 img {
     width: 100px;
     height: 100px;
     position: relative;
-    bottom: 30px;
+    bottom: 25px;
+    left: 10px;
 } 
 
 #texte {
     color: black;
     text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto';
 }
 
 .zone-carre {
